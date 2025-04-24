@@ -47,7 +47,7 @@ suggested movies as their preference. Here is the list of what we want to implem
 
 **Design** 
 
-![UML Diagram](https://github.com/rimutasnim/movie_recommendation_system/blob/main/uml.png?raw=true)
+![UML Diagram](https://github.com/Arian104/movie_recommendation_system/blob/main/screenshot/uml.png?raw=true)
 
 **Data Collection and preprocessing**
 
@@ -82,49 +82,49 @@ movies based on the availability of poster images.
 The movie Recommendations system successfully provides personalized movie recommendations based on the following text similarity where movies are recommended
 based on the similarity of their keywords to the movies in the user's favorites on the other side clustering movies are grouped based on features like popularity and runtime, and recommendations are made from the same cluster also “top movies” users can also view the highest-rated and most-voted movies.
 
-![login](https://github.com/rimutasnim/movie_recommendation_system/blob/main/login%20.png?raw=true)
+![login](https://github.com/Arian104/movie_recommendation_system/blob/main/screenshot/login%20.png?raw=true)
 
 ***Users can customize the filter:***
 
 
-![filter](https://github.com/rimutasnim/movie_recommendation_system/blob/main/filtering.png?raw=true)
+![filter](https://github.com/Arian104/movie_recommendation_system/blob/main/screenshot/filtering.png?raw=true)
 
 ***According to Filtering Options:*** 
 
 Highest-rated movies according to Filtering :
 
-![filter](https://github.com/rimutasnim/movie_recommendation_system/blob/main/highest_rated_mv.png?raw=true)
+![HIGH](https://github.com/Arian104/movie_recommendation_system/blob/main/screenshot/highest_rated_mv.png?raw=true)
 
 Most Voted Movies:
 
-![most_voted](https://github.com/rimutasnim/movie_recommendation_system/blob/main/most_voted_mv.png?raw=true)
+![most_voted](https://github.com/Arian104/movie_recommendation_system/blob/main/screenshot/most_voted_mv.png?raw=true)
 
 Clustered Movies:
 
-![clustered](https://github.com/rimutasnim/movie_recommendation_system/blob/main/clustered_mv.png?raw=true)
+![clustered](https://github.com/Arian104/movie_recommendation_system/blob/main/screenshot/clustered_mv.png?raw=true)
 
 User Interactivity
 ● Movie Details: Detailed
 information, including
 posters, genres, ratings, and
 overview, is displayed.
-![details](https://github.com/rimutasnim/movie_recommendation_system/blob/main/movie_details.png?raw=true)
+![details](https://github.com/Arian104/movie_recommendation_system/blob/main/screenshot/movie_details.png?raw=true)
 
 ● Add to Favourite: Users can add/remove movies to/from their favorites list.
 Favorites are stored in a JSON file for persistence.
-![fav](https://github.com/rimutasnim/movie_recommendation_system/blob/main/adding%20_movies_to_favourite.png?raw=true)
+![fav](https://github.com/Arian104/movie_recommendation_system/blob/main/screenshot/adding%20_movies_to_favourite.png?raw=true)
 
 
 After applying the add to favorite option the text similaty-based recommendation
 works. By Using Cosine Similarity Recommendation
 
-![cosinesimilarity](https://github.com/rimutasnim/movie_recommendation_system/blob/main/cosine_result.png?raw=true)
+![cosinesimilarity](https://github.com/Arian104/movie_recommendation_system/blob/main/screenshot/cosine_result.png?raw=true)
 
 ***Fuzzy Search***
 
-![fuzzy1](https://github.com/rimutasnim/movie_recommendation_system/blob/main/fuzzy_search_result.png?raw=true)
-![fuzzy2](https://github.com/rimutasnim/movie_recommendation_system/blob/main/fuzzy_serch_result2.png?raw=true)
-![fuzzy3](https://github.com/rimutasnim/movie_recommendation_system/blob/main/fuzzy_search_result3.png?raw=true)
+![fuzzy1](https://github.com/Arian104/movie_recommendation_system/blob/main/screenshot/fuzzy_search_result.png?raw=true)
+![fuzzy2](https://github.com/Arian104/movie_recommendation_system/blob/main/screenshot/fuzzy_serch_result2.png?raw=true)
+![fuzzy3](https://github.com/Arian104/movie_recommendation_system/blob/main/screenshot/fuzzy_search_result3.png?raw=true)
 
 ## Limitation
 - As I use Google Colab (free tier) and Streamlit Community it led to limited computational resources, runtime, and concurrent user sessions, leading to slower performance and reduced scalability.

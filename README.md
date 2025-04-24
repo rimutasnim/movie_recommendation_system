@@ -12,7 +12,6 @@ can also manage their list of favorite movies and filter results based on multip
 
 ## Authors
 
-- [@octokatherine](https://www.github.com/octokatherine)
 
 
 ## Background
